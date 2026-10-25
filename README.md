@@ -2,9 +2,21 @@
 
 **A drummer that listens, joins, learns, and sometimes leads.**
 
-Nexus Bunny Deluxe is a clean implementation of the Bunny Deluxe / Pocket Drummer idea for Audiotool Nexus.
+Nexus Bunny Deluxe is the **design for a musician-responsive drummer in Audiotool Nexus**, drawing lessons from the earlier [PocketD prototype](https://github.com/matthewjameswatkins1978-cyber/PocketD).
+
+**Project stage: design and architecture.** This repository currently contains a README and design documents, **not a runnable Nexus integration or drum engine**. The behaviours below are the proposed performance contract, not features available to install today.
 
 The goal is not to generate drum tracks on command. The goal is to behave like a good drummer who cannot see the other musician and does not know the song, but can hear enough musical evidence to join the performance, keep it alive, learn its shape, and communicate through drumming.
+
+## Start with the design
+
+- [Product vision](docs/PRODUCT.md): the musical experience we want to create.
+- [MVP](docs/MVP.md): the intended first bounded demonstration.
+- [Architecture](docs/ARCHITECTURE.md): observer, brain, hands and their boundaries.
+- [Decisions](docs/DECISIONS.md): what was chosen and why.
+- [PocketD salvage](docs/POCKETD_SALVAGE.md): lessons and reusable ideas from the earlier prototype.
+
+There are no build or installation steps yet. For a **working Python drummer prototype**, see [PocketD](https://github.com/matthewjameswatkins1978-cyber/PocketD), while keeping in mind that it is a different implementation.
 
 ## The thought experiment
 
